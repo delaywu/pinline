@@ -1,0 +1,30 @@
+﻿@*@using Ruanmou.MVC5.Models;*@
+@model CurrentUser
+@{
+    ViewBag.Title = "Index";
+    CurrentUser userData = (CurrentUser)ViewData["CurrentUserViewData"];
+    CurrentUser tempData = (CurrentUser)TempData["CurrentUserTempData"];
+    string text = "小巨蛋";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = null;
+}
+
+<h2>Index First</h2>
+
+<h3>ViewBag.Title:  @ViewBag.Title </h3>
+<h3>ViewBag.TestProp:  @ViewBag.TestProp </h3>
+<h3>ViewBag.CurrentUserViewBag:  @ViewBag.CurrentUserViewBag.Name </h3>
+
+<h3>ViewData.TestProp:  @ViewData["TestProp"] </h3>
+<h3>ViewData.CurrentUserViewData:  @(((CurrentUser)ViewData["CurrentUserViewData"]).Name) </h3>
+<h3>ViewData.userData:  @userData.Name </h3>
+
+<h3>TempData.TestProp:  @TempData["TestProp"] </h3>
+<h3>TempData.CurrentUserViewData:  @(((CurrentUser)TempData["CurrentUserTempData"]).Name) </h3>
+<h3>TempData.userData:  @tempData.Name </h3>
+
+
+
+<h3>model.Name: @Model.Name</h3>
+
+

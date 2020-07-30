@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="advanced11Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ParentCode" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CategoryLevel" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatorId" Type="Int32" Nullable="false" />
+    <Property Name="LastModifierId" Type="Int32" />
+    <Property Name="LastModifyTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_User_Company" FromRole="Company" ToRole="User" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_001">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_002">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_003">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_004">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_005">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_006">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_007">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_008">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_009">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_010">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_011">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_012">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_013">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_014">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_015">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_016">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_017">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_018">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_019">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_020">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_021">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_022">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_023">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_024">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_025">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_026">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_027">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_028">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_029">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="JD_Commodity_030">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="Title" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Url" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="SysLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Introduction" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Detail" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="LogType" Type="Byte" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatorId" Type="Int32" Nullable="false" />
+    <Property Name="LastModifyTime" Type="DateTime" Precision="3" />
+    <Property Name="LastModifierId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysMenu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParentId" Type="Int32" Nullable="false" />
+    <Property Name="Text" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Url" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="MenuLevel" Type="Byte" Nullable="false" />
+    <Property Name="MenuType" Type="Byte" Nullable="false" />
+    <Property Name="MenuIcon" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="SourcePath" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="Sort" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Byte" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatorId" Type="Int32" Nullable="false" />
+    <Property Name="LastModifyTime" Type="DateTime" Precision="3" />
+    <Property Name="LastModifierId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" MaxLength="36" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Byte" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreateId" Type="Int32" Nullable="false" />
+    <Property Name="LastModifyTime" Type="DateTime" Precision="3" />
+    <Property Name="LastModifierId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysRoleMenuMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SysRoleId" Type="Int32" Nullable="false" />
+    <Property Name="SysMenuId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SysUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="Byte" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="QQ" Type="Int64" />
+    <Property Name="WeChat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sex" Type="Byte" />
+    <Property Name="LastLoginTime" Type="DateTime" Precision="3" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreateId" Type="Int32" Nullable="false" />
+    <Property Name="LastModifyTime" Type="DateTime" Precision="3" />
+    <Property Name="LastModifyId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysUserMenuMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SysUserId" Type="Int32" Nullable="false" />
+    <Property Name="SysMenuId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SysUserRoleMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SysUserId" Type="Int32" Nullable="false" />
+    <Property Name="SysRoleId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Account" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyId" Type="Int32" />
+    <Property Name="CompanyName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="UserType" Type="Int32" Nullable="false" />
+    <Property Name="LastLoginTime" Type="DateTime" Precision="3" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatorId" Type="Int32" Nullable="false" />
+    <Property Name="LastModifierId" Type="Int32" />
+    <Property Name="LastModifyTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Company" Relationship="Self.FK_User_Company" FromRole="User" ToRole="Company" />
+  </EntityType>
+  <Association Name="FK_User_Company">
+    <End Role="Company" Type="Self.Company" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="advanced11Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Companies" EntityType="Self.Company" />
+    <EntitySet Name="JD_Commodity_001" EntityType="Self.JD_Commodity_001" />
+    <EntitySet Name="JD_Commodity_002" EntityType="Self.JD_Commodity_002" />
+    <EntitySet Name="JD_Commodity_003" EntityType="Self.JD_Commodity_003" />
+    <EntitySet Name="JD_Commodity_004" EntityType="Self.JD_Commodity_004" />
+    <EntitySet Name="JD_Commodity_005" EntityType="Self.JD_Commodity_005" />
+    <EntitySet Name="JD_Commodity_006" EntityType="Self.JD_Commodity_006" />
+    <EntitySet Name="JD_Commodity_007" EntityType="Self.JD_Commodity_007" />
+    <EntitySet Name="JD_Commodity_008" EntityType="Self.JD_Commodity_008" />
+    <EntitySet Name="JD_Commodity_009" EntityType="Self.JD_Commodity_009" />
+    <EntitySet Name="JD_Commodity_010" EntityType="Self.JD_Commodity_010" />
+    <EntitySet Name="JD_Commodity_011" EntityType="Self.JD_Commodity_011" />
+    <EntitySet Name="JD_Commodity_012" EntityType="Self.JD_Commodity_012" />
+    <EntitySet Name="JD_Commodity_013" EntityType="Self.JD_Commodity_013" />
+    <EntitySet Name="JD_Commodity_014" EntityType="Self.JD_Commodity_014" />
+    <EntitySet Name="JD_Commodity_015" EntityType="Self.JD_Commodity_015" />
+    <EntitySet Name="JD_Commodity_016" EntityType="Self.JD_Commodity_016" />
+    <EntitySet Name="JD_Commodity_017" EntityType="Self.JD_Commodity_017" />
+    <EntitySet Name="JD_Commodity_018" EntityType="Self.JD_Commodity_018" />
+    <EntitySet Name="JD_Commodity_019" EntityType="Self.JD_Commodity_019" />
+    <EntitySet Name="JD_Commodity_020" EntityType="Self.JD_Commodity_020" />
+    <EntitySet Name="JD_Commodity_021" EntityType="Self.JD_Commodity_021" />
+    <EntitySet Name="JD_Commodity_022" EntityType="Self.JD_Commodity_022" />
+    <EntitySet Name="JD_Commodity_023" EntityType="Self.JD_Commodity_023" />
+    <EntitySet Name="JD_Commodity_024" EntityType="Self.JD_Commodity_024" />
+    <EntitySet Name="JD_Commodity_025" EntityType="Self.JD_Commodity_025" />
+    <EntitySet Name="JD_Commodity_026" EntityType="Self.JD_Commodity_026" />
+    <EntitySet Name="JD_Commodity_027" EntityType="Self.JD_Commodity_027" />
+    <EntitySet Name="JD_Commodity_028" EntityType="Self.JD_Commodity_028" />
+    <EntitySet Name="JD_Commodity_029" EntityType="Self.JD_Commodity_029" />
+    <EntitySet Name="JD_Commodity_030" EntityType="Self.JD_Commodity_030" />
+    <EntitySet Name="SysLogs" EntityType="Self.SysLog" />
+    <EntitySet Name="SysMenus" EntityType="Self.SysMenu" />
+    <EntitySet Name="SysRoles" EntityType="Self.SysRole" />
+    <EntitySet Name="SysRoleMenuMappings" EntityType="Self.SysRoleMenuMapping" />
+    <EntitySet Name="SysUsers" EntityType="Self.SysUser" />
+    <EntitySet Name="SysUserMenuMappings" EntityType="Self.SysUserMenuMapping" />
+    <EntitySet Name="SysUserRoleMappings" EntityType="Self.SysUserRoleMapping" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_User_Company" Association="Self.FK_User_Company">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

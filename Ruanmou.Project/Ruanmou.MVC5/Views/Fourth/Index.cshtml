@@ -1,0 +1,100 @@
+﻿@using Ruanmou.EF.Model;
+@using PagedList.Mvc;
+@using PagedList;
+@model StaticPagedList<JDCommodity>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("Index", "Fourth"))
+{
+    <p>
+        Find by Condition:
+        @Html.TextBox("searchString", ViewBag.SearchString as string, new { @class = "form-control", @Style = "display:inline" })
+        @Html.TextBox("url", ViewBag.Url as string, new { @class = "form-control", @Style = "display:inline" })
+        @Html.Submit("查询")
+        @Html.ActionLink("CreateCommodity", "Create")
+    </p>
+    <div id="partialajaxlist">
+        <table class="table">
+            <tr>
+                <th>Id</th>
+                <th>标题</th>
+                <th>@Html.ActionLink("价格", "Index", new { orderBy = ViewBag.OrderBy, searchString = ViewBag.SearchString, page = 1 })</th>
+                <th>Url</th>
+                <th>Action</th>
+                <th>图片</th>
+            </tr>
+            @*前后混编，前后分离 MVVM vue *@
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @*@item.Id*@
+                        @Html.DisplayFor(modelItem => item.Id)@*//强类型 可以展示display*@
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Url)
+                    </td>
+                    <td>
+                        <a href="/Fourth/Details/@item.Id">Details</a>|
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id }) |
+                        <a id="@item.Id" href="javascript:void(0);" onclick="ajaxDelete(this)">ajaxDelete</a>
+                    </td>
+                    @*<td>
+                            <img src="@item.ImageUrl" />
+                        </td>*@
+                </tr>
+            }
+        </table>
+        @Html.Br()
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+        @*@Html.PagedListPager(Model, pageIndex => Url.Action("Index",
+            new { pageIndex, searchString = ViewBag.SearchString,lastOrderBy = ViewBag.OrderBy}))*@
+        @Html.PagedListPager(Model, pageIndex => $"/Fourth/Index?pageIndex={pageIndex}&searchString={base.ViewBag.SearchString}&url={base.ViewBag.Url}")
+    </div>
+}
+
+@section scripts{
+    @*这里写的js才是出现在js框架加载后的*@
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //重新ajax请求 加载两次
+
+            var listData = '@ViewBag.ListData';//单引号的bug需要在后端转码
+
+        })
+
+        function ajaxDelete(obj) {
+            $.ajax({
+                type: "POST",
+                url: '/Third/AjaxDelete',
+                data: { id: obj.id },
+                datatype: "text",
+                success: function (data) {
+                    if (data.Result == 1) {
+                        alert("删除成功" + obj.id + " 需要手动刷新界面");
+                    }
+                    else if (data.Result == 2) {
+                        alert("登陆超时,请重新登陆");
+                        location.href = "/home/login";
+                    }
+                    else {
+                        alert(data.PromptMsg);
+                    }
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(errorThrown);
+                }
+            });
+        }
+    </script>
+}

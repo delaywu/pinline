@@ -1,0 +1,69 @@
+﻿<!--如何写后台代码-->
+@{int i = 3; int m = 4;}   @*单行*@  <!--单行-->
+@{
+    //多行
+    ViewBag.Title = "Index";
+    int k = 5;
+}
+<h3>行内：@ViewBag.Title</h3>//行内  不能有大括号
+@*<h3>行内：@{ViewBag.Title}</h3>*@
+
+@if (i > 2)
+{
+    <a href="www.baidu.com">这里是个链接</a>
+}
+
+@for (int l = 0; l < 10; l++)
+{
+    <a href="www.baidu.com">这里是个链接 @l</a><br>
+}
+
+<h2>Index Second!</h2>
+
+<!--后台代码内部如何写html-->
+@{
+    //多行
+    ViewBag.Title = "Index";
+    //闭合的html标签
+    <p>闭合的html标签</p>
+    @:这里没有闭合标签
+
+    <text>
+        在这里，随便写html
+        <a href="www.baidu.com">这里是个链接 html</a>
+    </text>
+}
+<br />
+<!--使用partial页-->
+<p>等于webform的ascx</p>
+<p>Html.RenderPartial 在指定位置添加一个view，返回void 需要放入大括号 </p>
+@{ Html.RenderPartial("PartialPage", "这里是Html.RenderPartial"); }
+<br />
+<p>Html.Partial 返回的是字符串，放入当前位置</p>
+@Html.Partial("PartialPage", "这里是Html.Partial")
+
+
+<!--使用Action页-->
+<br />
+<p>Html.Action 返回的是字符串，放入当前位置,需要经过action的处理</p>
+@Html.Action("ChildAction", "Second", new { name = "Html.Action" })
+
+<br />
+<p>Html.RenderAction 在指定位置添加一个view，返回void 需要放入大括号,需要经过action的处理</p>
+@{Html.RenderAction("ChildAction", "Second", new { name = "Html.RenderAction" });}
+
+
+<!--这种传值是页面一次请求完成的，跟ajax不一样-->
+@*<input id="hidTitle" type="hidden" value="@ViewBag.Title" />
+    <script>
+        alert(document.getElementById("hidTitle").value);
+    </script>*@
+@section scripts{
+    <script>
+        $(function () {
+            //alert(12345);
+        })
+    </script>
+}
+
+

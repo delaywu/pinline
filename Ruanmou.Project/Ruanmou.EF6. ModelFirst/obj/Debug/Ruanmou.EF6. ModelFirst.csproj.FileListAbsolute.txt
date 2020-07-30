@@ -1,0 +1,122 @@
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csprojAssemblyReference.cache
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190530Advanced12Course57EFAdvanced\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190604Advanced12Course58EFIOC\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190612Advanced12Course51MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csprojAssemblyReference.cache
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190613Advanced12Course62MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190619Advanced12Course64MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190620Advanced12Course65MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csprojAssemblyReference.cache
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190625Advanced12Course66MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csprojAssemblyReference.cache
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190627Advanced12Course67MVC5\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe.config
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\Ruanmou.EF6.ModelFirst.pdb
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.dll
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.xml
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csprojAssemblyReference.cache
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CoreCompileInputs.cache
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6. ModelFirst.csproj.CopyComplete
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.exe
+D:\ruanmou\online12\20190709Advanced12Course69HttpHandler\Ruanmou.Project\Ruanmou.EF6. ModelFirst\obj\Debug\Ruanmou.EF6.ModelFirst.pdb
